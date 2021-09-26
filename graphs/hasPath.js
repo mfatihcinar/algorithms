@@ -20,8 +20,7 @@ export function hasPath(graph, source, destination){
 }
 */
 
-
-
+/*
 export function hasPath(graph, source, destination){
     // this function figures out if there is a path between source and destination
     // uses depth-first-search iterative approach
@@ -40,6 +39,23 @@ export function hasPath(graph, source, destination){
 
     return false;
 }
+*/
+
+
+export function hasPath(graph, source, destination){
+    // this function figures out whether there is a path from source to destination
+    // uses depth first search, recursive approach
+
+    if(source === destination) return true; // base case 
+
+    for(let neighbor of graph[source]){
+        if(hasPath(graph, neighbor, destination) === true)
+            return true;
+    }
+
+    return false;
+}
+
 
 
 console.log(hasPath(graphs[2], 'f','h'));
