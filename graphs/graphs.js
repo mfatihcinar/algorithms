@@ -40,5 +40,15 @@ export const graphTwo = {
     k: []
 }
 
+/* guaranteed acyclic */
+export const graphThree = {
+    f: ['g','i'],
+    g: ['h'],
+    h: [],
+    i: ['k', 'g'],
+    j: ['i'],
+    k: []
+}
+
 /* Also compile all the graphs as array */
-export const graphs = [graphOne, graphTwo];
+export const graphs = [graphOne, graphTwo, graphThree];
