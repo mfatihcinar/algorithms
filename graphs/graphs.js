@@ -65,3 +65,17 @@ export const edgesOne = [
     ['k', 'l'],
     ['o', 'n']
 ];
+
+
+export const edgesTwo = [
+    ['b', 'a'],
+    ['c', 'a'],
+    ['b', 'c'],
+    ['q', 'r'],
+    ['q', 's'],
+    ['q', 'u'],
+    ['q', 't'],
+];
+
+/* Also compile all the graphs that are represented by edge list */
+export const edges = [edgesOne, edgesTwo];
