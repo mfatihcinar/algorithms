@@ -52,3 +52,16 @@ export const graphThree = {
 
 /* Also compile all the graphs as array */
 export const graphs = [graphOne, graphTwo, graphThree];
+
+
+/* Graphs Represented as Edges List */
+
+/* cyclic */
+export const edgesOne = [
+    ['i', 'j'],
+    ['k', 'i'],
+    ['j', 'k'],
+    ['m', 'k'],
+    ['k', 'l'],
+    ['o', 'n']
+];
