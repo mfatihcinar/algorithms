@@ -50,8 +50,18 @@ export const graphThree = {
     k: []
 }
 
+export const graphFour = {
+    0: ["8", "1", "5"],
+    1: ["0"],
+    5: ["0", "8"],
+    8: ["0", "5"],
+    2: ["3", "4"],
+    3: ["2", "4"],
+    4: ["3", "2"]
+  }
+
 /* Also compile all the graphs as array */
-export const graphs = [graphOne, graphTwo, graphThree];
+export const graphs = [graphOne, graphTwo, graphThree, graphFour];
 
 
 /* Graphs Represented as Edges List */
