@@ -100,5 +100,13 @@ export const edgesTwo = [
     ['q', 't'],
 ];
 
+export const edgesThree = [
+    ['w', 'x'],
+    ['x', 'y'],
+    ['z', 'y'],
+    ['z', 'v'],
+    ['w', 'v']
+  ];
+
 /* Also compile all the graphs that are represented by edge list */
-export const edges = [edgesOne, edgesTwo];
+export const edges = [edgesOne, edgesTwo, edgesThree];
