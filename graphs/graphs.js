@@ -73,8 +73,21 @@ export const graphFive = {
     9: []
 }
 
+
+export const graphSix = {
+    1: [],
+    2: [],
+    3: [],
+    4: ["6"],
+    5: ["6"],
+    6: ["4","5","7","8"],
+    7: ["6"],
+    8: ["6"],
+    9: []
+}
+
 /* Also compile all the graphs as array */
-export const graphs = [graphOne, graphTwo, graphThree, graphFour, graphFive];
+export const graphs = [graphOne, graphTwo, graphThree, graphFour, graphFive, graphSix];
 
 
 /* Graphs Represented as Edges List */
