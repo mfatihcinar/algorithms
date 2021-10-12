@@ -123,3 +123,20 @@ export const edgesThree = [
 
 /* Also compile all the graphs that are represented by edge list */
 export const edges = [edgesOne, edgesTwo, edgesThree];
+
+
+
+/* Graphs Represented as Grid */
+
+
+export const gridOne = [
+    ['W', 'L', 'W', 'W', 'W'],
+    ['W', 'L', 'W', 'W', 'W'],
+    ['W', 'W', 'W', 'L', 'W'],
+    ['W', 'W', 'L', 'L', 'W'],
+    ['L', 'W', 'W', 'L', 'L'],
+    ['L', 'L', 'W', 'W', 'W'],
+];
+
+/* Also compile all grid graphs */
+export const grids = [gridOne];
