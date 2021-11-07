@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/trfatihcinar/algorithms/issues"
   },
-  "homepage": "https://github.com/trfatihcinar/algorithms#readme"
+  "homepage": "https://github.com/trfatihcinar/algorithms#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
 }
