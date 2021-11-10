@@ -14,10 +14,11 @@ describe("Insertion Sort", () => {
           // create a random array
           for( let i = 1; i <= randomLength; i++){
             let randomNumber = Math.floor(Math.random() * 101);
-            randomArray.push();
+            randomNumber *= -1;
+            randomArray.push(randomNumber);
           }
           
-          let sorted = [...randomArray].sort();
+          let sorted = [...randomArray].sort( (first, second) => (first - second));
             
           expect(insertionSort(randomArray)).toEqual(sorted);
         });
